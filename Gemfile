@@ -29,7 +29,6 @@ group :cli, :development do
 end
 
 group :cli, :development, :test do
-  gem "hanami-rspec", "~> 2.3.0"
 end
 
 group :test do
