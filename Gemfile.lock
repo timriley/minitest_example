@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/hanami/hanami-minitest.git
+  revision: f1b2fe6e2609440b9471dbd9287c3119887af080
+  branch: get-started
+  specs:
+    hanami-minitest (2.3.1)
+      hanami-cli (~> 2.3.0)
+      minitest (~> 5.25)
+      rake (~> 13.0)
+      zeitwerk (~> 2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -208,6 +219,7 @@ GEM
     method_source (1.1.0)
     mini_mime (1.1.5)
     mini_portile2 (2.8.9)
+    minitest (5.27.0)
     mustermann (3.0.4)
       ruby2_keywords (~> 0.0.1)
     mustermann-contrib (3.0.4)
@@ -344,6 +356,7 @@ DEPENDENCIES
   hanami-assets (~> 2.3.0)
   hanami-controller (~> 2.3.0)
   hanami-db (~> 2.3.0)
+  hanami-minitest!
   hanami-reloader (~> 2.3.0)
   hanami-router (~> 2.3.0)
   hanami-validations (~> 2.3.0)
@@ -409,6 +422,7 @@ CHECKSUMS
   hanami-cli (2.3.5) sha256=213fc8181e566930821d830eae335b22e93c3e5018f4f22d0c13792d1e76f05e
   hanami-controller (2.3.1) sha256=ad48df2b4e437fc8392c236d0ddc2fabc1a466db5ee829f05519134889e2b9d9
   hanami-db (2.3.0) sha256=d6baa6c16a9321e5132799b8b26c3e6a2e19b8c5515c8785fb1ab94720d94711
+  hanami-minitest (2.3.1)
   hanami-reloader (2.3.0) sha256=0367250fd5a4d322ac055bae75612ed3babb4eb6c4a77be22321990479d3404d
   hanami-router (2.3.1) sha256=81b3665cb851de5703bd2fea3f375eccb2af871288cf130ab0fbc42b3b8ae31f
   hanami-utils (2.3.0) sha256=aa00f6c377ab4ad2cbe57d989781bace348c9f234201bc60715058dc6e220999
@@ -427,6 +441,7 @@ CHECKSUMS
   method_source (1.1.0) sha256=181301c9c45b731b4769bc81e8860e72f9161ad7d66dd99103c9ab84f560f5c5
   mini_mime (1.1.5) sha256=8681b7e2e4215f2a159f9400b5816d85e9d8c6c6b491e96a12797e798f8bccef
   mini_portile2 (2.8.9) sha256=0cd7c7f824e010c072e33f68bc02d85a00aeb6fce05bb4819c03dfd3c140c289
+  minitest (5.27.0) sha256=2d3b17f8a36fe7801c1adcffdbc38233b938eb0b4966e97a6739055a45fa77d5
   mustermann (3.0.4) sha256=85fadcb6b3c6493a8b511b42426f904b7f27b282835502233dd154daab13aa22
   mustermann-contrib (3.0.4) sha256=aa39f90e5febbd2625ed437dbb91f379fb441e1f0627f66b699031665bdea687
   nenv (0.3.0) sha256=d9de6d8fb7072228463bf61843159419c969edb34b3cef51832b516ae7972765

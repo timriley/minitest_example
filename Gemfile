@@ -29,6 +29,7 @@ group :cli, :development do
 end
 
 group :cli, :development, :test do
+  gem "hanami-minitest", github: "hanami/hanami-minitest", branch: "get-started"
 end
 
 group :test do
